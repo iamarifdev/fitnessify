@@ -20,12 +20,18 @@ Issue and solution: https://github.com/android/fit-samples/issues/58
 
 I found a solution, it is strange but anyway it works for me:
 
-Delete your Cloud project
-Instead of the following instructions from http://developers.google.com/fit/android/get-started create a new project with firebase.
-Add an android app in firebase project settings
-Add both the SHA1 and SHA256 to it.
-Download google-services.json to android/app in your project folder.
-Make sure to have my "support email" set on general Project settings.
+1.Delete your Cloud project
+
+2. Instead of the following instructions from http://developers.google.com/fit/android/get-started create a new project with firebase.
+
+3. Add an android app in firebase project settings
+
+4. Add both the SHA1 and SHA256 to it.
+
+5. Download google-services.json to android/app in your project folder.
+
+6. Make sure to have my "support email" set on general Project settings.
+
 If this not help, please also check https://stackoverflow.com/questions/54557479/flutter-and-google-sign-in-plugin-platformexceptionsign-in-failed-com-google
 
 Guys have a similar problem with GoogleSignIn
